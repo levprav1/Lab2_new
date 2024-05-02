@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanelWindow" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanelWindow" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelWindow">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jButtonImportNewFile" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jButtonExport" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jButtonImport" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabelImport" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelImportNewFile" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelExport" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="28" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButtonExit" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButtonImport" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelImport" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButtonImportNewFile" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelImportNewFile" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButtonExport" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelExport" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="56" max="32767" attributes="0"/>
+                  <Component id="jButtonExit" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButtonImport">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x418;&#x43c;&#x43f;&#x43e;&#x440;&#x442; &#x444;&#x430;&#x439;&#x43b;&#x430; &#x441; &#x432;&#x430;&#x440;&#x438;&#x430;&#x43d;&#x442;&#x430;&#x43c;&#x438;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonImportNewFile">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x418;&#x43c;&#x43f;&#x43e;&#x440;&#x442; &#x43d;&#x43e;&#x432;&#x43e;&#x433;&#x43e; &#x444;&#x430;&#x439;&#x43b;&#x430;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonExport">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x42d;&#x43a;&#x441;&#x43f;&#x43e;&#x440;&#x442; &#x444;&#x430;&#x439;&#x43b;&#x430; &#x441; &#x440;&#x435;&#x437;&#x443;&#x43b;&#x44c;&#x442;&#x430;&#x442;&#x430;&#x43c;&#x438;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonExit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x445;&#x43e;&#x434;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelImport">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x414;&#x430;&#x43d;&#x43d;&#x44b;&#x435; &#x43d;&#x435; &#x437;&#x430;&#x433;&#x440;&#x443;&#x436;&#x435;&#x43d;&#x44b;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelImportNewFile">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x414;&#x430;&#x43d;&#x43d;&#x44b;&#x435; &#x43d;&#x435; &#x437;&#x430;&#x433;&#x440;&#x443;&#x436;&#x435;&#x43d;&#x44b;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelExport">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x414;&#x430;&#x43d;&#x43d;&#x44b;&#x435; &#x43d;&#x435; &#x432;&#x44b;&#x433;&#x440;&#x443;&#x436;&#x435;&#x43d;&#x44b;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
