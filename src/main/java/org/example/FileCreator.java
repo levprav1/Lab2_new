@@ -29,7 +29,7 @@ public class FileCreator {
         }
     }
 
-    public void createFile(String path) throws IOException {
+    private void createFile(String path) throws IOException {
 
         File file = new File(path);
 
