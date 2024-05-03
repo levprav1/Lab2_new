@@ -50,7 +50,7 @@ public class FileCreator {
 
     private static void createRandomColumns(XSSFSheet sheet) {
         Random random = new Random();
-        int numberOfColumns = random.nextInt(100) + 1; // Рандомное количество колонок от 1 до 100
+        int numberOfColumns = random.nextInt(10) + 1; // Рандомное количество колонок от 1 до 10
         int numberOfRows = random.nextInt(1000) + 2; // Рандомное количество строк от 2 до 1001
 
         Set<String> usedHeaders = new HashSet<>();
